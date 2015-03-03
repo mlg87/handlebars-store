@@ -1,0 +1,11 @@
+.container {
+	margin-top: 20px;
+}
+
+.wishlist-container {
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+	background-color: #ccc;
+}

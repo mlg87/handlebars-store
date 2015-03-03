@@ -2,14 +2,20 @@ extends layout
 
 block content
 	.container
-		ul#wishlist
-			button.btn.btn-primary(type='submit') Add to Wishlist
+		.wishlist-container
+			h1#wishlist-header Your Wishlist
+			ul#wishlist
 		#product-container
 		script(type='text/x-handlebars-template')#first-template
-			.product.col-md-4.col-sm-4
+			.product.col-md-4.col-sm-4.col-xs-6
 				h3 {{title}}
 				img(src='{{image}}')
+				{{#if sale}}
+				p <strong>${{sale}}<strong> (SALE ITEM)
+				{{else}}
 				p ${{cost}}
+				{{/if}}
+				button#wishlist-add.btn.btn-sm.btn-primary(type='button') + Item to Wishlist
 		script(type='text/x-handlebars-template')#wishlist-template
 			li {{title}}
-				button.btn.btn-primary(type='submit') Remove
+			button#rmvBtn.btn.btn-xs.btn-danger(type='button') Remove

@@ -25,10 +25,10 @@ Part II: The Details:
 
 
 Part III: Wishlist:
- ☐ Add a ul to your page that is outside of #product-container and give it the ID of #wishlist
- ☐ Add a button to the page that asks the user to add an item to their wishlist
- ☐ Create an additional handlebars template that has a single list item, since it will be going inside the #wishlist, and displays a title and a remove button
- ☐ Using the new handlebars template, add each clicked game to the wishlist
+ ✔ Add a ul to your page that is outside of #product-container and give it the ID of #wishlist @done (15-03-03 11:22)
+ ✔ Add a button to the page that asks the user to add an item to their wishlist @done (15-03-03 11:25)
+ ✔ Create an additional handlebars template that has a single list item, since it will be going inside the #wishlist, and displays a title and a remove button @done (15-03-03 11:38)
+ ✔ Using the new handlebars template, add each clicked game to the wishlist @done (15-03-03 14:54)
  ☐ Set up the remove buttons to allow the user to remove each item from the wishlist
 
     Check Your Work: Besides seeing the store from part 1, you should see an add button on each product that, when clicked, adds that title as well as a remove button to your wishlist. Clicking each remove button should delete that specific item from the list.
